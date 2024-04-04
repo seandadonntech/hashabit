@@ -1,4 +1,4 @@
-# SHA256 Hash Generator
+# hashabit 
 
 This Python script allows you to generate SHA256 hashes from input text.
 
