@@ -6,7 +6,7 @@ class TestHash(unittest.TestCase):
         # Input string to be hashed
         input_string = "Hello, world!"
         
-        # Expected SHA-1 hash of the input string
+      
         expected_hash = "943a702d06f34599aee1f8da8ef9f7296031d699"
         
         # Calculate actual hash
