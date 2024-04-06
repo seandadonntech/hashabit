@@ -20,7 +20,7 @@ layout = [
     [sg.Output(size=(50,10))]
 ]
 
-window = sg.Window('Hash Generator', layout)
+window = sg.Window('Hashabit', layout)
 
 while True:
     event, values = window.read()
