@@ -12,7 +12,7 @@ def sha1():
     print(f'Text: {text}')
     print(f'SHA1 Hash: {hash_object.hexdigest()}')
 
-def help():
+def help ():
     print("Welcome to hasabit. Enter 1 for SHA256, 2 for SHA1, 3 for help")
 
 while True:
@@ -26,3 +26,4 @@ while True:
         help()
     else:
         print("Invalid option. Please try again.") 
+        

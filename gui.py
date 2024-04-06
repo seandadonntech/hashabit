@@ -38,3 +38,4 @@ while True:
         print(f'Blake2b Hash: {blake2b(text)}')
 
 window.close()
+
