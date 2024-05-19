@@ -1,4 +1,5 @@
 import hashlib
+
 import unittest
 
 class TestHash(unittest.TestCase):
@@ -28,8 +29,15 @@ class TestHash(unittest.TestCase):
         
         self.assertEqual(actual_hash, expected_hash, "SHA-256 hash does not match")
         
-        
+    def test_blake2b(self):
+     input_string = 'test'
        
+       
+       
+       
+       
+        
+    
     
          
 if __name__ == '__main__':

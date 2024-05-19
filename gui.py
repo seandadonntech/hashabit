@@ -1,6 +1,9 @@
 import hashlib
 import PySimpleGUI as sg
 
+import socketserver
+
+
 def sha256(text):
     hash_object = hashlib.sha256(text.encode())
     return hash_object.hexdigest()
