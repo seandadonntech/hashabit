@@ -1,7 +1,7 @@
 import hashlib
 import PySimpleGUI as sg
 
-import socketserver
+
 
 
 def sha256(text):
